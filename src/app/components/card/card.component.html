@@ -6,7 +6,7 @@
             <p class="card-text">{{card.subHeader}}
             </p>
             <a href="#" class="btn btn-dark">More Info</a>
-            <button class="ms-3 btn btn-primary" (click)="handleClick()">Add to cart</button>
+            <button [disabled]="isDisabled" (click)="handleClick()"  [ngClass]="{'btn-primary' : !isDisabled,'btn-secondary' : isDisabled}" class="ms-3 btn " >Add to cart</button>
           </div>
           <ul class="list-group list-group-flush">
             <li class="list-group-item">Brand: {{card.brand}}</li>
