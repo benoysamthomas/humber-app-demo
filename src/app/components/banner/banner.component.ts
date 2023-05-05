@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
 })
 export class BannerComponent {
 banner={
-heading:"Spring Season is backssss!",
+heading:"Spring Season is back!",
 subheading:"And so is our offers too then why waiting",
 cta:"checkout all our products",
 url:"https://www.amazon.ca",
