@@ -10,6 +10,9 @@ export class CardComponent {
 @Input() card!:Card
 @Output() onCardSelect = new EventEmitter<Card>();
 
+trimText(text : string){
+return text.substring(0, 125) + '...';
+}
 get isDisabled(){
 
   return this.card.stock===0;

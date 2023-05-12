@@ -3,13 +3,13 @@
   <div class="container px-lg-5">
     <div class="p-4 p-lg-5 bg-light rounded-3 text-center">
       <div class="m-4 m-lg-5">
-        <h1 class="display-5 fw-bold">{{banner.heading}}</h1>
+        <h1 class="display-5 fw-bold">{{banner.heading |uppercase}}</h1>
         <p class="fs-4">{{banner.subheading}}</p>
         <button (click)="handleClick()" class="btn btn-primary btn-lg" >{{banner.cta}}</button>
       </div>
-      <h1>Two way binding</h1>
+     <!-- <h1>Two way binding</h1>
 <input type="text" [(ngModel)]="comments">
-<p>Comment is:{{comments}}</p>
+<p>Comment is:{{comments}}</p>-->
     </div>
   </div>
 

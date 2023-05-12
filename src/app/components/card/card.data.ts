@@ -6,8 +6,8 @@ export const cardData: Card[] = [
     header: 'iPhone 9',
     subHeader: 'An apple mobile which is nothing like apple',
     price: 549,
-    rating: 4.5,
-    stock: 94,
+    rating: 2.5,
+    stock: 6,
     brand: 'Apple',
     category: 'Smartphones',
     thumbnail: "https://i.dummyjson.com/data/products/1/thumbnail.jpg"

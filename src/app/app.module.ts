@@ -7,6 +7,9 @@ import { NavbarComponent } from './shared/navbar/navbar.component';
 import { FooterComponent } from './shared/footer/footer.component';
 import { FormsModule } from '@angular/forms';
 import { CardComponent } from './components/card/card.component';
+import { StockPipe } from './pipes/stock.pipe';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { RatingsComponent } from './components/ratings/ratings.component';
 
 
 @NgModule({
@@ -15,12 +18,14 @@ import { CardComponent } from './components/card/card.component';
     BannerComponent,
     NavbarComponent,
     FooterComponent,
-    CardComponent
-
+    CardComponent,
+    StockPipe,
+    RatingsComponent
   ],
   imports: [
     BrowserModule,
-    FormsModule
+    FormsModule,
+    FontAwesomeModule
   ],
   providers: [],
   bootstrap: [AppComponent]
